@@ -1,4 +1,7 @@
 # SerialLink
+SerialLink is a arduino library designed to simplify serial communication with host computers. It enables efficient and seamless data exchange without blocking code execution. By using configurable start and end markers, SerialLink ensures reliable message framing, making it an ideal tool for developers working with embedded systems or serial communication.
+
+### Notes: Need the [python](https://github.com/Michael-Jalloh/SerialLink) companion library on the host computer
 
 ## Example
 ```cpp
