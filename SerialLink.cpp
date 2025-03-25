@@ -1,19 +1,11 @@
 #include "SerialLink.h"
 
-// SerialLink::SerialLink(){
-//     this -> baudrate = 115200;
-//     this -> startMaker = '<';
-//     this -> endMarker = '>';
-//     this -> numChar = 32;
-//     this -> receivedChar[32];
-//     init();
-// }
 
 SerialLink::SerialLink(long baudrate, char startMaker,char endMarker){
     this -> baudrate = baudrate;
     this -> startMaker = startMaker;
     this -> endMarker = endMarker;
-    init();
+    // init();
 }
 
 void SerialLink::init() {
